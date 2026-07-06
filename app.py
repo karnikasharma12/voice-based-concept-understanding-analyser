@@ -12,14 +12,14 @@ from components.utils import add_space
 from mock_data import mock_result
 
 # -------- For Dummy data --------
-USE_MOCK = True
+USE_MOCK = False
 
 def get_result(audio=None):
     if USE_MOCK:
         return mock_result
     else:
-        from modules.backend import analyze_audio
-        return analyze_audio(audio)
+        from modules.backend import analyze
+        return analyze(audio)
 
 # ------------ Page Configuration-------------
 st.set_page_config(
