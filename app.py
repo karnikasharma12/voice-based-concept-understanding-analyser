@@ -379,15 +379,20 @@ else:
     """, unsafe_allow_html=True)
     m1, m2, m3, m4, m5 = st.columns(5)
     with m1:
-        st.info("""**Member 1** :🎨 Frontend(Streamlit UI)""")
+        st.info("""**Member 1** :🎨 Frontend(Streamlit UI) 
+                                    \n Parul Mathuriya""")
     with m2:
-        st.info("""**Member 2** :🎤 Speech-to-Text""")
+        st.info("""**Member 2** :🎤 Speech-to-Text
+                                    \n Manish Sharma""")
     with m3:
-        st.info("""**Member 3** :🧠 Semantic Analysis""")
+        st.info("""**Member 3** :🧠 Semantic Analysis
+                                     \n Harshit Soni""")
     with m4:
-        st.info("""**Member 4** :🔊 Audio Analysis""")
+        st.info("""**Member 4** :🔊 Audio Analysis
+                                    \n Pankaj Kumar Jangid""")
     with m5:
-        st.info("""**Member 5** :⚙️ Backend""") 
+        st.info("""**Member 5** :⚙️ Backend
+                                     \n Karnika Sharma""") 
 
 
 
