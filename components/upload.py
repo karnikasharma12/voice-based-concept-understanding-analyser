@@ -17,8 +17,8 @@ def show_upload():
         """, unsafe_allow_html=True)
 
         audio = st.file_uploader(
-            "",
-            type=["wav", "mp3"],
+            "upload audio",
+            type=["wav", "mp3","ogg","m4a"],
             label_visibility="collapsed",
             key="audio_upload"
         )
